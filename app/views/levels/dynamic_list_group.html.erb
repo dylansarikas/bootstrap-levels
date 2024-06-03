@@ -1,2 +1,13 @@
 <%# The below code creates an array of 10 random names %>
 <%= names = Array.new(10) { Faker::Name.unique.name  } %>
+
+<ul class="list-group offset-md-4 col-md-4">
+<% names.each do |name| %>
+  <li class="list-group-item d-flex justify-content-between">
+    <div><%= name %></div>
+    <div>
+      <span class="badge rounded-pill text-bg-primary"><%= rand(10) %></span>
+    </div>
+  </li>
+<% end %>
+</ul>
