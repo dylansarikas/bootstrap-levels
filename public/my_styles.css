@@ -1,5 +1,4 @@
-.primary-btn {
-  background: #0d6efd;
+.main-btn {
   color: white;
   padding-left: 10px;
   padding-right: 10px;
@@ -8,14 +7,122 @@
   font-size: 24px;
   border-radius: 7px;
   font-family: Arial, Helvetica, sans-serif;
+  border: 20px;
 }
 
-.primary-btn:hover {
+.alt-btn {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 24px;
+  border-radius: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px;
+}
+
+.main-btn:hover {
   box-shadow: 8px 10px 60px -5px rgba(0,0,0,0.33) inset;
--webkit-box-shadow: 8px 10px 60px -5px rgba(0,0,0,0.33) inset;
--moz-box-shadow: 8px 10px 60px -5px rgba(0,0,0,0.33) inset;
+  -webkit-box-shadow: 8px 10px 60px -5px rgba(0,0,0,0.33) inset;
+  -moz-box-shadow: 8px 10px 60px -5px rgba(0,0,0,0.33) inset;
 }
 
-.primary-btn:active {
-  background: blue;
+.main-btn:active {
+  box-shadow: 8px 10px 60px 45px rgba(0,0,0,0.57) inset;
+  -webkit-box-shadow: 8px 10px 60px 45px rgba(0,0,0,0.57) inset;
+  -moz-box-shadow: 8px 10px 60px 45px rgba(0,0,0,0.57) inset;
+}
+
+.primary-btn {
+  background: #0d6efd;
+}
+
+.primary-alt {
+  border-color: #0d6efd;
+  border-style: solid;
+  color: #0d6efd;
+}
+
+.primary-alt:hover {
+  color: white;
+  background: #0d6efd;
+}
+
+.secondary-btn {
+  background: grey;
+}
+
+.secondary-alt {
+  border-color: grey;
+  border-style: solid;
+  color: grey;
+}
+
+.secondary-alt:hover {
+  color: white;
+  background: grey;
+}
+
+.success-btn {
+  background: green;
+}
+
+.success-alt {
+  border-color: green;
+  border-style: solid;
+  color: green;
+}
+
+.success-alt:hover {
+  color: white;
+  background: green;
+}
+
+.danger-btn {
+  background: red;
+}
+
+.danger-alt {
+  border-color: red;
+  border-style: solid;
+  color: red;
+}
+
+.danger-alt:hover {
+  color: white;
+  background: red;
+}
+
+.warning-btn {
+  background: orange;
+}
+
+.warning-alt {
+  border-color: orange;
+  border-style: solid;
+  color: orange;
+}
+
+.warning-alt:hover {
+  color: white;
+  background: orange;
+}
+
+.info-btn {
+  background: lightblue;
+}
+
+.info-alt {
+  border-color: lightblue;
+  border-style: solid;
+  color: lightblue;
+}
+
+.info-alt:hover {
+  color: white;
+  background: lightblue;
+}
+
+.button {
+  margin: 40px;
 }
